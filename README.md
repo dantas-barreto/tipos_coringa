@@ -7,7 +7,7 @@
 `List<Integer> myNumbers = new ArrayList<Integer>();`  
 `myObjs = myNumbers;` // erro de compilação  
   
-O supertipo de qualquer lista é List<?>. Este é um tipo coringa:  
+O supertipo de qualquer lista é `List<?>`. Este é um tipo coringa:  
   
 `List<?> myObjs = new ArrayLIst<Object>();`  
 `List<Integer> mynNumbers = new ArrayList<Integer>();`  
