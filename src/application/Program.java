@@ -14,6 +14,7 @@ public class Program {
 	}
 	
 	public static void printList(List<?> list) {
+		list.add(3);
 		for (Object obj : list) {
 			System.out.println(obj);
 		}
